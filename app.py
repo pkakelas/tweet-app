@@ -22,7 +22,7 @@ def tweets():
             'age': tweet['age']
         })
 
-    return jsonify({'result' : output})
+    return jsonify(output)
 
 @app.route('/tweets/hashtag', methods=['GET'])
 def get_hashtagged_tweets(hashtag):
