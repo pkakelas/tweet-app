@@ -24,7 +24,7 @@ def tweets():
 
     return jsonify({'result' : output})
 
-@app.route('/star/hashtag', methods=['GET'])
+@app.route('/tweets/hashtag', methods=['GET'])
 def get_hashtagged_tweets(hashtag):
     tweets_db = mongo.db.tweets
     regex = ".*" + hashtag + ".*"
