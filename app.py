@@ -68,7 +68,7 @@ def post():
         'age': tweet['age']
     })
 
-    return jsonify(tweet), 201
+    return JSONEncoder().encode(tweet), 201
 
 @app.route('/tweets/hashtag/<hashtag>', methods=['DELETE'])
 def delete_hashtagged_tweets(hashtag):
