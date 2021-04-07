@@ -11,7 +11,7 @@ Babel==2.6.0
 backcall==0.1.0
 bellmanford==0.2.1
 binance==0.3
-bottle==0.12.13
+bottle==0.12.19
 Brlapi==0.6.7
 btrfsutil==1.0.0
 CacheControl==0.12.5
