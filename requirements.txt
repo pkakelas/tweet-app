@@ -7,7 +7,7 @@ astroid==2.0.4
 attrs==18.2.0
 autobahn==18.9.1
 Automat==0.7.0
-Babel==2.6.0
+Babel==2.9.1
 backcall==0.1.0
 bellmanford==0.2.1
 binance==0.3
