@@ -16,7 +16,7 @@ Brlapi==0.6.7
 btrfsutil==1.0.0
 CacheControl==0.12.5
 cached-property==1.5.1
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 Click==7.0
